@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/garageFragment"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="712dp"
+        android:layout_height="227dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll">
+
+        <LinearLayout
+            android:layout_width="163dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="Not active"
+                android:textColor="@android:color/holo_orange_dark"></TextView>
+
+            <ImageView
+                android:id="@+id/box_1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_margin="30dp"
+                android:src="@drawable/box_blur"></ImageView>
+
+            <ImageView
+                android:id="@+id/open_1"
+                android:src="@drawable/open"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="Open"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="Not active"
+                android:textColor="@android:color/holo_orange_dark"></TextView>
+
+            <ImageView
+                android:id="@+id/box_2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_margin="30dp"
+                android:src="@drawable/box_blur"></ImageView>
+
+            <ImageView
+                android:id="@+id/open_2"
+                android:src="@drawable/open"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="Open"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="Not active"
+                android:textColor="@android:color/holo_orange_dark"></TextView>
+
+            <ImageView
+
+                android:id="@+id/box_3"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_margin="30dp"
+                android:src="@drawable/box_blur"></ImageView>
+
+            <ImageView
+                android:id="@+id/open_3"
+                android:src="@drawable/open"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="Open"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="227dp"
+                android:layout_height="175dp">
+
+                <ImageView
+                    android:id="@+id/vehicle"
+                    android:layout_width="189dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/vehicle_2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.304"></ImageView>
+
+                <ImageView
+                    android:id="@+id/blade"
+                    android:layout_width="80dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/blade"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"></ImageView>
+
+                <ImageView
+                    android:id="@+id/forklift"
+                    android:layout_width="150dp"
+                    android:layout_height="186dp"
+                    android:src="@drawable/forklift"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.35"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.545"></ImageView>
+
+                <ImageView
+                    android:id="@+id/wheels1"
+                    android:layout_width="102dp"
+                    android:layout_height="126dp"
+                    android:src="@drawable/wheels"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.707"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"></ImageView>
+
+                <ImageView
+                    android:id="@+id/wheels2"
+                    android:layout_width="49dp"
+                    android:layout_height="82dp"
+                    android:src="@drawable/wheels_pom"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.754"></ImageView>
+
+                <ImageView
+                    android:id="@+id/chainsaw"
+                    android:layout_width="70dp"
+                    android:layout_height="168dp"
+                    android:src="@drawable/chainsaw"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.955"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"></ImageView>
+
+                <ImageView
+                    android:id="@+id/stinger"
+                    android:layout_width="70dp"
+                    android:layout_height="168dp"
+                    android:src="@drawable/stinger"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.955"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"></ImageView>
+
+                <ImageView
+                    android:id="@+id/rocket"
+                    android:layout_width="70dp"
+                    android:layout_height="168dp"
+                    android:src="@drawable/rocket"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.821"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"></ImageView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="59dp">
+
+                <ImageView
+                    android:id="@+id/statistics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="statistic"
+                    android:src="@drawable/s"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/logout"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+                <ImageView
+                    android:id="@+id/logout"
+                    android:src="@drawable/logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="log out"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/statistics"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </ImageView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="707dp"
+        android:id="@+id/ll"
+        android:layout_height="129dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/music_control"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="Settings"
+            android:src="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/createCar"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="create car"
+            android:src="@drawable/createcar"/>
+
+        <ImageView
+            android:id="@+id/runBattle"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="run battle"
+            android:src="@drawable/runbattle"></ImageView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

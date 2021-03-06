@@ -1,0 +1,50 @@
+RECYCLER VIEW:
+https://developer.android.com/guide/topics/ui/layout/recyclerview
+
+VIEW MODEL:
+https://developer.android.com/topic/libraries/architecture/viewmodel
+https://developer.android.com/jetpack/androidx/releases/lifecycle
+
+CARD VIEW:
+https://developer.android.com/guide/topics/ui/layout/cardview
+
+FRAGMENTS:
+https://developer.android.com/guide/components/fragments#java
+
+DIALOGS:
+https://developer.android.com/guide/topics/ui/dialogs
+
+MENUS:
+https://developer.android.com/guide/topics/ui/menus
+
+SPINNER:
+https://developer.android.com/guide/topics/ui/controls/spinner
+
+NAVIGATION:
+https://developer.android.com/guide/navigation/navigation-getting-started
+https://developer.android.com/guide/navigation/navigation-ui
+
+SERVICES:
+https://developer.android.com/guide/components/services
+https://developer.android.com/guide/components/bound-services
+
+ASYNCTASK:
+https://developer.android.com/reference/android/os/AsyncTask
+
+SHARED PREFERENCES:
+https://developer.android.com/training/data-storage/shared-preferences
+
+FILES:
+plaky ):
+
+MEDIA PLAYER:
+https://developer.android.com/guide/topics/media/mediaplayer
+
+DATABASE:
+https://developer.android.com/reference/android/arch/persistence/room/TypeConverter
+https://developer.android.com/jetpack/androidx/releases/room
+https://developer.android.com/training/data-storage/room
+https://developer.android.com/training/data-storage/room/relationships
+
+SENSORS:
+https://developer.android.com/guide/topics/sensors/sensors_overview

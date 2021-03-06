@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.catsproject.StartFragment"
+        android:label="start_fragment"
+        tools:layout="@layout/start_fragment" >
+        <action
+            android:id="@+id/action_startFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.catsproject.RegistrationFragment"
+        android:label="registration_fragment"
+        tools:layout="@layout/registration_fragment" >
+        <action
+            android:id="@+id/action_registrationFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/garageFragment"
+        android:name="com.example.catsproject.GarageFragment"
+        android:label="garage_fragment"
+        tools:layout="@layout/garage_fragment" >
+        <action
+            android:id="@+id/action_garageFragment_to_canvasFragment"
+            app:destination="@id/canvasFragment" />
+        <action
+            android:id="@+id/action_garageFragment_to_battleFragment"
+            app:destination="@id/battleFragment" />
+        <action
+            android:id="@+id/action_garageFragment_to_BFragment"
+            app:destination="@id/BFragment" />
+        <action
+            android:id="@+id/action_garageFragment_to_startFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/canvasFragment"
+        android:name="com.example.catsproject.CanvasFragment"
+        android:label="canvas_fragment"
+        tools:layout="@layout/canvas_fragment" >
+        <action
+            android:id="@+id/action_canvasFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/battleFragment"
+        android:name="com.example.catsproject.BattleFragment"
+        android:label="battle_fragment"
+        tools:layout="@layout/battle_fragment" >
+        <action
+            android:id="@+id/action_battleFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BFragment"
+        android:name="com.example.catsproject.BFragment"
+        android:label="b_fragment"
+        tools:layout="@layout/b_fragment" />
+</navigation>
